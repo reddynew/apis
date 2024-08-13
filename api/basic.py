@@ -2,7 +2,8 @@ from flask import Flask,jsonify,request
 import pandas as pd
 import requests
 app=Flask(__name__)
-data=pd.read_csv('api/cause_list _format.csv')
+data=pd.read_csv('.
+/cause_list _format.csv')
 api_key='basickey'
 @app.route('/',methods=['GET'])
 def basic():
